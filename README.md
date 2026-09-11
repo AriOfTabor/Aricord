@@ -4,7 +4,7 @@
 
 **The other cutest Discord client mod — now with extra Ari.**
 
-Aricord is a fork of [Aricord](https://github.com/AriOfTabor/Aricord) (which is a fork of [Equicord](https://github.com/Equicord/Equicord), which is a fork of [Vencord](https://github.com/Vendicated/Vencord)) — bundling the best plugins from the whole family tree, plus its own.
+Aricord is a fork of [Illegalcord](https://github.com/ImHisako/Illegalcord) (which is a fork of [Equicord](https://github.com/Equicord/Equicord), which is a fork of [Vencord](https://github.com/Vendicated/Vencord)) — bundling the best plugins from the whole family tree, plus its own.
 
 [![GPL-3.0 License](https://img.shields.io/badge/License-GPL--3.0-blue.svg)](LICENSE)
 

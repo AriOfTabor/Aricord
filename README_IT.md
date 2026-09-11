@@ -1,8 +1,8 @@
-# [<img src="./browser/Aricord.png" width="40" align="left" alt="Equicord">](https://github.com/Equicord/Equicord) Aricord
+# [<img src="./browser/Aricord.png" width="40" align="left" alt="Aricord">](https://github.com/AriOfTabor/Aricord) Aricord
 
 🌐 **Lingue / Languages:** [Italiano](README_IT.md) | [English](README.md)
 
-Aricord è un fork open source di [Equicord](https://github.com/Equicord) e [Vencord](https://github.com/Vendicated/Vencord), con più di 300 plugin. È progettato per chi dà valore alla completa libertà di sviluppo, alla trasparenza, alla privacy e alla personalizzazione.
+Aricord è un fork open source di [Illegalcord](https://github.com/ImHisako/Illegalcord), [Equicord](https://github.com/Equicord) e [Vencord](https://github.com/Vendicated/Vencord), con più di 300 plugin. È progettato per chi dà valore alla completa libertà di sviluppo, alla trasparenza, alla privacy e alla personalizzazione.
 
 Nato inizialmente come progetto personale, Aricord ha guadagnato popolarità nel tempo, man mano che sempre più persone ne hanno scoperto e apprezzato le idee e le funzionalità. Il client mira a offrire comunicazioni più private attraverso il plugin SecurecordOpossum e consente di superare i limiti di caricamento di Discord utilizzando servizi esterni come [anon.li](https://anon.li/).
 
@@ -17,7 +17,7 @@ Sito di Aricord: https://aricord.mintlify.site/
 
 ### Plugin Inclusi
 
-I plugin inclusi possono essere trovati [qui](https://equicord.org/plugins).
+I plugin inclusi possono essere trovati [qui](https://github.com/AriOfTabor/Aricord).
 
 ### Plugin Aggiunti su Aricord
 <details>

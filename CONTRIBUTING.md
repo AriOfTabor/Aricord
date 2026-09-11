@@ -8,7 +8,7 @@
 
 Equicord is a community project and welcomes any kind of contribution from anyone!
 
-We have development documentation for new contributors, which can be found at <https://docs.equicord.org>.
+We have development documentation for new contributors, which can be found at <https://github.com/AriOfTabor/Aricord>.
 
 > [!IMPORTANT]
 > All contributions must follow our [Code of Conduct](./CODE_OF_CONDUCT.md).
@@ -74,5 +74,5 @@ Bug fixes, refactors, and documentation improvements are also highly appreciated
 
 ## Helping the Community
 
-We have an open support channel in our [Discord community](https://equicord.org/discord).
+We have an open support channel in our [GitHub issues](https://github.com/AriOfTabor/Aricord/issues).
 Helping out users there is always appreciated! The more, the merrier.
