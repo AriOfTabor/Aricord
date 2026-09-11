@@ -6,8 +6,7 @@ on:
 
 env:
     FORCE_COLOR: true
-    GITHUB_TOKEN: ${{ secrets.ETOKEN }}
-    REPO: ImHisako/Illegalcord
+    REPO: AriOfTabor/Aricord
     USERNAME: GitHub-Actions
 
 permissions:
@@ -15,7 +14,7 @@ permissions:
 
 jobs:
     Build:
-        name: Build Illegalcord
+        name: Build Aricord
         runs-on: ubuntu-latest
 
         steps:
@@ -67,25 +66,14 @@ jobs:
                   rm release/package.json
                   rm release/*.map
 
-            - name: Upload Illegalcord Stable
+            - name: Upload Aricord Stable
               if: ${{ vars.ACT == 'false' }}
               env:
                   GH_TOKEN: ${{ github.token }}
               run: |
-                  gh release view latest || gh release create latest --title latest --notes "Automated build"
+                  # The release title must end with the commit sha — the in-app
+                  # updater compares it against its build hash to decide whether
+                  # an update is needed.
+                  gh release view latest || gh release create latest --title "Aricord $GITHUB_SHA" --notes "Automated build"
+                  gh release edit latest --title "Aricord $GITHUB_SHA"
                   gh release upload latest --clobber dist/release/*
-
-            - name: Upload Plugin JSONs to Equibored repo
-              if: github.repository == 'ImHisako/Illegalcord' && vars.ACT == 'false'
-              run: |
-                  git config --global user.name "GitHub-Actions"
-                  git config --global user.email actions@github.com
-                  git clone https://$USERNAME:$GITHUB_TOKEN@github.com/$REPO.git plugins
-                  cd plugins
-
-                  cp ../dist/release/*plugins.json .
-                  cp ../dist/release/devs.json .
-                  git add -A
-
-                  git commit -m "Plugins for https://github.com/$GITHUB_REPOSITORY/commit/$GITHUB_SHA"
-                  git push --force https://$USERNAME:$GITHUB_TOKEN@github.com/$REPO.git || echo "::notice::Skipped plugin JSON upload because the repository denied push access."

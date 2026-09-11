@@ -33,7 +33,7 @@ jobs:
     Build:
         name: Build Illegalcord
         runs-on: ubuntu-latest
-        if: github.repository == 'ImHisako/Illegalcord'
+        if: github.repository == 'AriOfTabor/Aricord'
 
         steps:
             - uses: actions/checkout@v6
