@@ -31,7 +31,7 @@ permissions:
 
 jobs:
     Build:
-        name: Build Illegalcord
+        name: Build Aricord
         runs-on: ubuntu-latest
         if: github.repository == 'AriOfTabor/Aricord'
 

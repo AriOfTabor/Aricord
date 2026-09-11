@@ -33,7 +33,7 @@ const INSTALLER_APP_DARWIN = "Equilotl.app";
 
 const BASE_DIR = join(dirname(fileURLToPath(import.meta.url)), "..");
 const FILE_DIR = join(BASE_DIR, "dist", "Installer");
-const LOCAL_INSTALLER_DIR = join(BASE_DIR, "IllegalcordInstaller", "dist");
+const LOCAL_INSTALLER_DIR = join(BASE_DIR, "AricordInstaller", "dist");
 const ETAG_FILE = join(FILE_DIR, "etag.txt");
 
 function getFilename() {
@@ -85,7 +85,7 @@ async function ensureBinary() {
 
     const res = await fetch(BASE_URL + filename, {
         headers: {
-            "User-Agent": "Illegalcord (https://github.com/ImHisako/Illegalcord)",
+            "User-Agent": "Aricord (https://github.com/AriOfTabor/Aricord)",
             "If-None-Match": etag
         }
     });

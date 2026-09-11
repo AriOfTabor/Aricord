@@ -1,27 +1,27 @@
-# [<img src="./browser/Illegalcord.png" width="40" align="left" alt="Equicord">](https://github.com/Equicord/Equicord) Illegalcord
+# [<img src="./browser/Aricord.png" width="40" align="left" alt="Equicord">](https://github.com/Equicord/Equicord) Aricord
 
 🌐 **Lingue / Languages:** [Italiano](README_IT.md) | [English](README.md)
 
-Illegalcord è un fork open source di [Equicord](https://github.com/Equicord) e [Vencord](https://github.com/Vendicated/Vencord), con più di 300 plugin. È progettato per chi dà valore alla completa libertà di sviluppo, alla trasparenza, alla privacy e alla personalizzazione.
+Aricord è un fork open source di [Equicord](https://github.com/Equicord) e [Vencord](https://github.com/Vendicated/Vencord), con più di 300 plugin. È progettato per chi dà valore alla completa libertà di sviluppo, alla trasparenza, alla privacy e alla personalizzazione.
 
-Nato inizialmente come progetto personale, Illegalcord ha guadagnato popolarità nel tempo, man mano che sempre più persone ne hanno scoperto e apprezzato le idee e le funzionalità. Il client mira a offrire comunicazioni più private attraverso il plugin SecurecordOpossum e consente di superare i limiti di caricamento di Discord utilizzando servizi esterni come [anon.li](https://anon.li/).
+Nato inizialmente come progetto personale, Aricord ha guadagnato popolarità nel tempo, man mano che sempre più persone ne hanno scoperto e apprezzato le idee e le funzionalità. Il client mira a offrire comunicazioni più private attraverso il plugin SecurecordOpossum e consente di superare i limiti di caricamento di Discord utilizzando servizi esterni come [anon.li](https://anon.li/).
 
-Se cerchi un client Discord che offra maggiore privacy e più libertà di utilizzo, Illegalcord potrebbe essere la scelta giusta per te. Include inoltre il supporto all'audio stereo e offre una qualità audio migliore rispetto a Lightcord, senza costi nascosti né componenti closed source. Il progetto è completamente open source.
+Se cerchi un client Discord che offra maggiore privacy e più libertà di utilizzo, Aricord potrebbe essere la scelta giusta per te. Include inoltre il supporto all'audio stereo e offre una qualità audio migliore rispetto a Lightcord, senza costi nascosti né componenti closed source. Il progetto è completamente open source.
 
 > [!WARNING]
-> Illegalcord viene talvolta etichettato come malware semplicemente perché non applica gli stessi limiti imposti da altri client modificati. Non affidarti a giudizi privi di verifiche: il progetto è completamente open source, quindi puoi leggere e controllare personalmente il codice. Se, dopo averlo esaminato, lo ritieni sicuro e adatto alle tue esigenze, sei libero di installarlo e usarlo.
+> Aricord viene talvolta etichettato come malware semplicemente perché non applica gli stessi limiti imposti da altri client modificati. Non affidarti a giudizi privi di verifiche: il progetto è completamente open source, quindi puoi leggere e controllare personalmente il codice. Se, dopo averlo esaminato, lo ritieni sicuro e adatto alle tue esigenze, sei libero di installarlo e usarlo.
 
-Telegram e notizie: https://t.me/Illegalcord
+Telegram e notizie: https://t.me/Aricord
 
-Sito di Illegalcord: https://illegalcord.mintlify.site/
+Sito di Aricord: https://aricord.mintlify.site/
 
 ### Plugin Inclusi
 
 I plugin inclusi possono essere trovati [qui](https://equicord.org/plugins).
 
-### Plugin Aggiunti su Illegalcord
+### Plugin Aggiunti su Aricord
 <details>
-<summary>Clicca per vedere i plugin aggiunti a Illegalcord</summary>
+<summary>Clicca per vedere i plugin aggiunti a Aricord</summary>
 
 - **Surveillance**: Dashboard PoC sperimentale per analizzare eventi Discord già visibili al client dell'utente. Destinata esclusivamente a ricerca, formazione e test autorizzati.
 - **Kamidere Mutual Scanner**
@@ -85,9 +85,9 @@ I plugin inclusi possono essere trovati [qui](https://equicord.org/plugins).
 
 </details>
 
-Illegalcord ha le sue badge personali btw
+Aricord ha le sue badge personali btw
 
-## Installare Illegalcord
+## Installare Aricord
 
 ### Dipendenze
 
@@ -101,18 +101,18 @@ Installa `pnpm`:
 npm i -g pnpm
 ```
 
-> :exclamation: **IMPORTANTE** Assicurati di non usare un terminale amministratore/root da qui in poi. **Rovinerà** la tua installazione di Discord/Illegalcord e molto probabilmente dovrai reinstallare.
+> :exclamation: **IMPORTANTE** Assicurati di non usare un terminale amministratore/root da qui in poi. **Rovinerà** la tua installazione di Discord/Aricord e molto probabilmente dovrai reinstallare.
 
 Se stai usando il BAT per installare il Client e hai l'errore che l'esecuzione di scripts è disabilitato nel vostro sistema. useguite da powershell con amministratore :
 ```shell
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser -Force
 ```
 
-Clona Illegalcord:
+Clona Aricord:
 
 ```shell
-git clone https://github.com/ImHisako/Illegalcord
-cd Illegalcord
+git clone https://github.com/AriOfTabor/Aricord
+cd Aricord
 ```
 
 Installa le dipendenze:
@@ -121,25 +121,25 @@ Installa le dipendenze:
 pnpm install --frozen-lockfile
 ```
 
-Compila Illegalcord:
+Compila Aricord:
 
 ```shell
 pnpm build
 ```
 
-Inietta Illegalcord nel tuo client desktop:
+Inietta Aricord nel tuo client desktop:
 
 ```shell
 pnpm inject
 ```
 
-Compila Illegalcord per il web:
+Compila Aricord per il web:
 
 ```shell
 pnpm buildWeb
 ```
 
-Dopo aver compilato l'estensione web di Illegalcord, individua il file ZIP appropriato nella directory `dist` e segui la guida del tuo browser per installare estensioni personalizzate, se supportato.
+Dopo aver compilato l'estensione web di Aricord, individua il file ZIP appropriato nella directory `dist` e segui la guida del tuo browser per installare estensioni personalizzate, se supportato.
 
 Nota: Il file zip dell'estensione Firefox richiede Firefox per sviluppatori
 
@@ -154,24 +154,24 @@ Nota: Il file zip dell'estensione Firefox richiede Firefox per sviluppatori
 
 Discord è un marchio di Discord Inc. ed è menzionato esclusivamente a scopo descrittivo.
 La sua menzione non implica alcuna affiliazione o approvazione da parte di Discord Inc.
-Vencord non è affiliato con Equicord o Illegalcord.
+Vencord non è affiliato con Equicord o Aricord.
 
 ### Stato Legale, PoC dell'Intero Progetto e Uso Responsabile
 
 > [!IMPORTANT]
-> **Illegalcord nel suo complesso, inclusi tutti i plugin integrati e non soltanto OSINTToolkit, Surveillance e Stalker, è pubblicato come proof of concept (PoC) sperimentale.** Le finalità previste sono ricerca, formazione, interoperabilità, privacy, personalizzazione e test di sicurezza autorizzati. La qualifica di PoC descrive lo scopo previsto del progetto: non costituisce un'esenzione legale e non rende lecito ogni possibile utilizzo.
+> **Aricord nel suo complesso, inclusi tutti i plugin integrati e non soltanto OSINTToolkit, Surveillance e Stalker, è pubblicato come proof of concept (PoC) sperimentale.** Le finalità previste sono ricerca, formazione, interoperabilità, privacy, personalizzazione e test di sicurezza autorizzati. La qualifica di PoC descrive lo scopo previsto del progetto: non costituisce un'esenzione legale e non rende lecito ogni possibile utilizzo.
 
-Illegalcord non viene presentato come malware né come software destinato a facilitare reati. Il nome del progetto e la presenza di funzionalità avanzate o dual use non determinano, da soli, lo stato legale del software. Nessun manutentore può tuttavia garantire che il client, ogni plugin o ogni utilizzo siano leciti in qualsiasi giurisdizione. La liceità dipende dalla funzione utilizzata, dalla condotta dell'utente, dall'autorizzazione o dal consenso, dai dati coinvolti, dalla legge applicabile e dalle regole della piattaforma. Questa sezione contiene informazioni generali e non costituisce consulenza legale.
+Aricord non viene presentato come malware né come software destinato a facilitare reati. Il nome del progetto e la presenza di funzionalità avanzate o dual use non determinano, da soli, lo stato legale del software. Nessun manutentore può tuttavia garantire che il client, ogni plugin o ogni utilizzo siano leciti in qualsiasi giurisdizione. La liceità dipende dalla funzione utilizzata, dalla condotta dell'utente, dall'autorizzazione o dal consenso, dai dati coinvolti, dalla legge applicabile e dalle regole della piattaforma. Questa sezione contiene informazioni generali e non costituisce consulenza legale.
 
-Illegalcord deve essere utilizzato esclusivamente con account, sistemi, server, comunicazioni e dati propri o ai quali si è esplicitamente autorizzati ad accedere e che si è autorizzati ad analizzare. Il fatto che un'informazione sia pubblicamente accessibile non elimina automaticamente gli obblighi in materia di privacy e protezione dei dati. È vietato utilizzare Illegalcord per accessi o intercettazioni non autorizzati, acquisizione o condivisione di credenziali o token, elusione dei controlli di sicurezza o di età, spam, molestie, doxxing, atti persecutori, profilazione o raccolta di dati non autorizzata, frode, violazione del diritto d'autore o qualsiasi altra attività illegale o abusiva.
+Aricord deve essere utilizzato esclusivamente con account, sistemi, server, comunicazioni e dati propri o ai quali si è esplicitamente autorizzati ad accedere e che si è autorizzati ad analizzare. Il fatto che un'informazione sia pubblicamente accessibile non elimina automaticamente gli obblighi in materia di privacy e protezione dei dati. È vietato utilizzare Aricord per accessi o intercettazioni non autorizzati, acquisizione o condivisione di credenziali o token, elusione dei controlli di sicurezza o di età, spam, molestie, doxxing, atti persecutori, profilazione o raccolta di dati non autorizzata, frode, violazione del diritto d'autore o qualsiasi altra attività illegale o abusiva.
 
 #### Privacy, archiviazione locale e servizi di terze parti
 
-Illegalcord è un software client, ma non è corretto presumere che ogni operazione rimanga esclusivamente all'interno di Discord o che non venga trattato alcun dato personale. In base ai plugin e alle impostazioni attivati, il client può leggere dati già disponibili al client Discord, salvare localmente impostazioni, identificativi, log e anteprime facoltative dei messaggi oppure trasmettere a servizi indipendenti identificativi, termini di ricerca, file, metadati delle richieste, contenuti destinati a webhook o altri dati scelti dall'utente. Prima di attivare plugin che trattano o trasmettono dati è necessario consultare la [Privacy Policy del progetto](PRIVACY_POLICY.md).
+Aricord è un software client, ma non è corretto presumere che ogni operazione rimanga esclusivamente all'interno di Discord o che non venga trattato alcun dato personale. In base ai plugin e alle impostazioni attivati, il client può leggere dati già disponibili al client Discord, salvare localmente impostazioni, identificativi, log e anteprime facoltative dei messaggi oppure trasmettere a servizi indipendenti identificativi, termini di ricerca, file, metadati delle richieste, contenuti destinati a webhook o altri dati scelti dall'utente. Prima di attivare plugin che trattano o trasmettono dati è necessario consultare la [Privacy Policy del progetto](PRIVACY_POLICY.md).
 
-**OSINTToolkit interagisce con servizi indipendenti di terze parti, inclusi CordCat e Breach.vip.** Le richieste possono comunicare l'identificativo Discord cercato o altri termini di ricerca e metadati tecnici come l'indirizzo IP dell'utente. CordCat dichiara di conservare informazioni sulle ricerche e sulle richieste secondo la propria informativa e di poter interrogare un aggregatore privato di dati provenienti da violazioni. Altri plugin facoltativi possono contattare servizi di caricamento, webhook, servizi CAPTCHA, database di contenuti o altre API. Tali fornitori applicano termini, informative, misure di sicurezza e periodi di conservazione propri; Illegalcord non controlla il loro trattamento e non può cancellare i dati da essi detenuti.
+**OSINTToolkit interagisce con servizi indipendenti di terze parti, inclusi CordCat e Breach.vip.** Le richieste possono comunicare l'identificativo Discord cercato o altri termini di ricerca e metadati tecnici come l'indirizzo IP dell'utente. CordCat dichiara di conservare informazioni sulle ricerche e sulle richieste secondo la propria informativa e di poter interrogare un aggregatore privato di dati provenienti da violazioni. Altri plugin facoltativi possono contattare servizi di caricamento, webhook, servizi CAPTCHA, database di contenuti o altre API. Tali fornitori applicano termini, informative, misure di sicurezza e periodi di conservazione propri; Aricord non controlla il loro trattamento e non può cancellare i dati da essi detenuti.
 
-Prima di trasmettere dati personali a qualunque servizio, l'utente deve individuare una finalità lecita e specifica, determinare una base giuridica adeguata, informare gli interessati quando richiesto, ridurre al minimo i dati inviati, stabilire un periodo di conservazione proporzionato, proteggere i file locali e rispettare i diritti di accesso, opposizione, rettifica e cancellazione. Non devono essere trasmessi dati di minori, categorie particolari di dati, credenziali, comunicazioni private o informazioni provenienti da violazioni salvo che il trattamento sia strettamente necessario, consentito dalla legge e adeguatamente protetto. La disponibilità pubblica, l'etichetta OSINT o l'informativa di un servizio terzo non dimostrano da sole la liceità del riutilizzo. Non devono essere adottate decisioni che incidano significativamente su una persona basandosi esclusivamente su risultati OSINT o provenienti da violazioni non verificati. Prima dell'uso è necessario consultare la [Privacy Policy di CordCat](https://cord.cat/privacy/), i [Termini di CordCat](https://cord.cat/terms/) e le informative di ogni altro servizio. Illegalcord non certifica la loro conformità al GDPR né l'accuratezza, la liceità, l'attualità o la provenienza dei dati forniti.
+Prima di trasmettere dati personali a qualunque servizio, l'utente deve individuare una finalità lecita e specifica, determinare una base giuridica adeguata, informare gli interessati quando richiesto, ridurre al minimo i dati inviati, stabilire un periodo di conservazione proporzionato, proteggere i file locali e rispettare i diritti di accesso, opposizione, rettifica e cancellazione. Non devono essere trasmessi dati di minori, categorie particolari di dati, credenziali, comunicazioni private o informazioni provenienti da violazioni salvo che il trattamento sia strettamente necessario, consentito dalla legge e adeguatamente protetto. La disponibilità pubblica, l'etichetta OSINT o l'informativa di un servizio terzo non dimostrano da sole la liceità del riutilizzo. Non devono essere adottate decisioni che incidano significativamente su una persona basandosi esclusivamente su risultati OSINT o provenienti da violazioni non verificati. Prima dell'uso è necessario consultare la [Privacy Policy di CordCat](https://cord.cat/privacy/), i [Termini di CordCat](https://cord.cat/terms/) e le informative di ogni altro servizio. Aricord non certifica la loro conformità al GDPR né l'accuratezza, la liceità, l'attualità o la provenienza dei dati forniti.
 
 #### Plugin sensibili e limiti di utilizzo penalmente rilevanti
 
@@ -199,17 +199,17 @@ Discord vieta le modifiche al client e l'automazione di normali account utente a
 ## Ringraziamenti speciali
 
 Siamo orgogliosi di collaborare con [Nightcord](https://nightcord.st/).
-Le loro idee, le loro scelte di progettazione e parti del loro codice sono state integrate direttamente nella filosofia di sviluppo di Illegalcord, influenzando diversi plugin e funzionalità.
+Le loro idee, le loro scelte di progettazione e parti del loro codice sono state integrate direttamente nella filosofia di sviluppo di Aricord, influenzando diversi plugin e funzionalità.
 Questa collaborazione è stata ben più di un semplice nome: ha rappresentato un contributo concreto alla direzione e alla qualità di questo client.
 
 > [!WARNING]
-> **Il nome Illegalcord non rende il client illegale di per sé.** La parola **"Illegal"** fa parte solo del nome del progetto e non determina lo stato legale del software.
+> **Il nome Aricord non rende il client illegale di per sé.** La parola **"Illegal"** fa parte solo del nome del progetto e non determina lo stato legale del software.
 > Il nome richiama l'idea di un client Discord senza le limitazioni e le regole tipicamente imposte da altri client mod, in modo simile alla filosofia di personalizzazione di Equicord e Vencord.
 > Tuttavia, l'uso di client modificati può comunque violare i Termini di Servizio di Discord, quindi va fatto con consapevolezza.
 > Gli utilizzi illeciti non rientrano nelle finalità previste dal progetto. La responsabilità è determinata dalla legge applicabile e non può essere esclusa semplicemente tramite questo disclaimer.
 
 <details>
-<summary>Usare Illegalcord viola i termini di servizio di Discord</summary>
+<summary>Usare Aricord viola i termini di servizio di Discord</summary>
 
 Le modifiche al client sono contro i Termini di Servizio di Discord.
 
@@ -217,6 +217,6 @@ Discord vieta espressamente le modifiche al client e i self-bot. Nella pratica, 
 
 Indipendentemente da ciò, se il tuo account è essenziale per te e la sua disabilitazione sarebbe un disastro, probabilmente dovresti evitare di usare mod client (non solo Equicord), giusto per essere al sicuro.
 
-Inoltre, assicurati di non pubblicare screenshot con Illegalcord in un server dove potresti essere bannato per questo.
+Inoltre, assicurati di non pubblicare screenshot con Aricord in un server dove potresti essere bannato per questo.
 
 </details>

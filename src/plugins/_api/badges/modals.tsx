@@ -181,11 +181,11 @@ interface DonorBadgeModalProps {
     iconSrc?: string;
 }
 
-export function IllegalcordDonorModal(badge: DonorBadgeModalProps) {
+export function AricordDonorModal(badge: DonorBadgeModalProps) {
     openModal(props => (
         <ErrorBoundary noop onError={() => {
             props.onClose();
-            VencordNative.native.openExternal("https://github.com/sponsors/ImHisako");
+            VencordNative.native.openExternal("https://github.com/AriOfTabor");
         }}>
             <Modal
                 {...props}
@@ -200,7 +200,7 @@ export function IllegalcordDonorModal(badge: DonorBadgeModalProps) {
                     >
                         <Flex justifyContent="center" alignItems="center" gap="0.5em">
                             <Heart />
-                            Illegalcord Supporter
+                            Aricord Supporter
                         </Flex>
                     </Heading>
                 }
@@ -223,7 +223,7 @@ export function IllegalcordDonorModal(badge: DonorBadgeModalProps) {
                             </Paragraph>
                         )}
                         <Paragraph className={Margins.top20}>
-                            Thank you for supporting Illegalcord development! Your contribution helps keep this project alive and thriving.
+                            Thank you for supporting Aricord development! Your contribution helps keep this project alive and thriving.
                         </Paragraph>
                     </div>
                 </div>

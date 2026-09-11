@@ -11,14 +11,14 @@
     "overrides": [
         {
             "files": [
-                "src/illegalcordplugins/IllegalcordDynamicIsland/style.css",
-                "src/illegalcordplugins/LarpCord/styles.css",
-                "src/illegalcordplugins/mutualScanner/styles.css",
-                "src/illegalcordplugins/presenceLab/styles.css",
-                "src/illegalcordplugins/sendTrail/styles.css",
-                "src/illegalcordplugins/SpatialAudio/style.css",
-                "src/illegalcordplugins/Surveillance/components/styles.css",
-                "src/illegalcordplugins/yMusicSync.desktop/styles.css"
+                "src/aricordplugins/AricordDynamicIsland/style.css",
+                "src/aricordplugins/LarpCord/styles.css",
+                "src/aricordplugins/mutualScanner/styles.css",
+                "src/aricordplugins/presenceLab/styles.css",
+                "src/aricordplugins/sendTrail/styles.css",
+                "src/aricordplugins/SpatialAudio/style.css",
+                "src/aricordplugins/Surveillance/components/styles.css",
+                "src/aricordplugins/yMusicSync.desktop/styles.css"
             ],
             "rules": {
                 "no-descending-specificity": null
@@ -26,8 +26,8 @@
         },
         {
             "files": [
-                "src/illegalcordplugins/LarpCord/styles.css",
-                "src/illegalcordplugins/mutualScanner/styles.css"
+                "src/aricordplugins/LarpCord/styles.css",
+                "src/aricordplugins/mutualScanner/styles.css"
             ],
             "rules": {
                 "no-duplicate-selectors": null
@@ -35,8 +35,8 @@
         },
         {
             "files": [
-                "src/illegalcordplugins/LarpCord/styles.css",
-                "src/illegalcordplugins/Surveillance/components/styles.css"
+                "src/aricordplugins/LarpCord/styles.css",
+                "src/aricordplugins/Surveillance/components/styles.css"
             ],
             "rules": {
                 "selector-class-pattern": null
@@ -44,7 +44,7 @@
         },
         {
             "files": [
-                "src/illegalcordplugins/sendTrail/styles.css"
+                "src/aricordplugins/sendTrail/styles.css"
             ],
             "rules": {
                 "declaration-property-value-keyword-no-deprecated": null

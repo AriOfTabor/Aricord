@@ -1,16 +1,16 @@
-# Illegalcord Privacy Notice
+# Aricord Privacy Notice
 
-Illegalcord is open-source client software rather than a single hosted service. This notice explains the data handling that can occur in the client and its bundled plugins. It does not replace the privacy notices of Discord or any independent service contacted by a plugin.
+Aricord is open-source client software rather than a single hosted service. This notice explains the data handling that can occur in the client and its bundled plugins. It does not replace the privacy notices of Discord or any independent service contacted by a plugin.
 
-## Data collection by the Illegalcord project
+## Data collection by the Aricord project
 
-The repository code reviewed for this notice does not implement a mandatory Illegalcord-operated account system, installation registry, or analytics service that reports who has installed or is using the client. Merely installing, opening, or using the local client does not give the Illegalcord maintainers a list of its users, their Discord accounts, or their activity, and the project does not receive the Discord token through an Illegalcord-controlled server.
+The repository code reviewed for this notice does not implement a mandatory Aricord-operated account system, installation registry, or analytics service that reports who has installed or is using the client. Merely installing, opening, or using the local client does not give the Aricord maintainers a list of its users, their Discord accounts, or their activity, and the project does not receive the Discord token through an Aricord-controlled server.
 
-This does not mean that every network interaction is anonymous or local. Discord, GitHub, websites, update or download hosts, and services contacted by optional plugins can receive ordinary connection information such as an IP address and request metadata under their own policies. The maintainers can also become aware of a person when that person voluntarily contacts support, posts in a project community, submits a report, contributes code, or uses a separately identified service controlled by a maintainer. Illegalcord therefore does not claim that it is technically impossible to infer that a particular person uses the client in every circumstance; it states that the client code does not maintain or transmit a mandatory user roster or project analytics identifier.
+This does not mean that every network interaction is anonymous or local. Discord, GitHub, websites, update or download hosts, and services contacted by optional plugins can receive ordinary connection information such as an IP address and request metadata under their own policies. The maintainers can also become aware of a person when that person voluntarily contacts support, posts in a project community, submits a report, contributes code, or uses a separately identified service controlled by a maintainer. Aricord therefore does not claim that it is technically impossible to infer that a particular person uses the client in every circumstance; it states that the client code does not maintain or transmit a mandatory user roster or project analytics identifier.
 
 ## Data the client may process
 
-Depending on the enabled plugins and settings, Illegalcord may process:
+Depending on the enabled plugins and settings, Aricord may process:
 
 - Discord account, user, server, channel, message, presence, voice, relationship, and other data already available to the Discord client;
 - plugin settings, Discord identifiers, local activity or message logs, crash reports, and optional message previews stored on the user's device;
@@ -25,21 +25,21 @@ The client necessarily interacts with Discord, whose processing is governed by t
 
 Optional plugins can also contact independent services. For example, OSINTToolkit sends queries to CordCat and Breach.vip. A query may reveal the searched Discord ID or other search term, the user's IP address, timestamps, endpoint information, and other technical metadata. CordCat states that it retains lookup data and search history and queries sources that include a private breach-data aggregator; consult the current [CordCat Privacy Policy](https://cord.cat/privacy/) and [CordCat Terms](https://cord.cat/terms/) before use.
 
-Other plugins may use file-hosting or upload providers, webhooks, CAPTCHA services, content or reputation databases, update servers, or other APIs selected by the plugin or user. Each provider independently determines what it receives, why it processes the data, how long it keeps it, and how data-protection rights can be exercised. Illegalcord does not control these providers, certify their legal compliance or data provenance, or have the ability to access or erase data held by them.
+Other plugins may use file-hosting or upload providers, webhooks, CAPTCHA services, content or reputation databases, update servers, or other APIs selected by the plugin or user. Each provider independently determines what it receives, why it processes the data, how long it keeps it, and how data-protection rights can be exercised. Aricord does not control these providers, certify their legal compliance or data provenance, or have the ability to access or erase data held by them.
 
 ## User responsibilities and lawful use
 
-Users must review a plugin and every relevant third-party notice before enabling it. When using Illegalcord to process another person's personal data, the user is responsible for determining their role and obligations under applicable law, including whether a lawful basis, notice, consent, authorization, data-protection impact assessment, contract, or other safeguard is required.
+Users must review a plugin and every relevant third-party notice before enabling it. When using Aricord to process another person's personal data, the user is responsible for determining their role and obligations under applicable law, including whether a lawful basis, notice, consent, authorization, data-protection impact assessment, contract, or other safeguard is required.
 
 Users must limit processing to a specific lawful purpose, minimize the data collected or transmitted, verify accuracy, restrict access, use proportionate retention periods, and securely delete data when no longer needed. Publicly accessible information and OSINT or breach results remain capable of being personal data. Do not process data about minors, special-category data, credentials, private communications, or breach records unless doing so is strictly necessary, legally permitted, and appropriately protected. Do not use unverified results as the sole basis for decisions that significantly affect a person.
 
-Illegalcord and third-party services must not be used for unauthorized access or interception, credential theft or sharing, stalking, harassment, doxxing, unlawful profiling, discrimination, fraud, spam, safety or age-control evasion, or any other illegal or abusive activity.
+Aricord and third-party services must not be used for unauthorized access or interception, credential theft or sharing, stalking, harassment, doxxing, unlawful profiling, discrimination, fraud, spam, safety or age-control evasion, or any other illegal or abusive activity.
 
 ## Local storage, retention, and deletion
 
 Local settings, logs, message previews, downloaded files, exported reports, and credentials remain on the user's device until removed through the relevant plugin controls or deleted from the applicable data directory. Users should disable unnecessary logging, avoid message previews unless required, protect local files from unauthorized access, define a short retention period, and securely delete data when its purpose ends.
 
-Data sent to Discord or another provider is retained under that provider's policy. Requests to access, rectify, object to, restrict, or erase such data must normally be directed to the provider that holds it. Removing Illegalcord does not cause an independent provider to erase its records.
+Data sent to Discord or another provider is retained under that provider's policy. Requests to access, rectify, object to, restrict, or erase such data must normally be directed to the provider that holds it. Removing Aricord does not cause an independent provider to erase its records.
 
 ## Credentials and security
 
@@ -52,9 +52,9 @@ The following bundled plugins currently interact with, or can affect the exposur
 - **BoosterCount/showBoostCounts** reads the current token in memory and places it in a direct Discord request used to retrieve guild booster information;
 - **NoDevtoolsWarning** does not retrieve or transmit the token itself, but prevents Discord from applying a developer-console callback that hides the token, which can increase accidental exposure risk.
 
-For **GhostSelfbot specifically**, token extraction, the renderer-to-native handoff, and configuration-file writing are performed locally on the user's computer. Auto-fill is disabled by default. When enabled and the Ghost configuration exists, the Illegalcord integration writes the token to `%APPDATA%\Ghost\config.json`; if `%APPDATA%\Ghost\data\sensitive\tokens.json` also exists, it updates the matching local entry there. The integration code contains no request that uploads the token to an Illegalcord-controlled server or to an unrelated analytics service. Illegalcord's maintainers do not receive the token through this feature.
+For **GhostSelfbot specifically**, token extraction, the renderer-to-native handoff, and configuration-file writing are performed locally on the user's computer. Auto-fill is disabled by default. When enabled and the Ghost configuration exists, the Aricord integration writes the token to `%APPDATA%\Ghost\config.json`; if `%APPDATA%\Ghost\data\sensitive\tokens.json` also exists, it updates the matching local entry there. The integration code contains no request that uploads the token to an Aricord-controlled server or to an unrelated analytics service. Aricord's maintainers do not receive the token through this feature.
 
-The token cannot accurately be described as never leaving the computer under all circumstances. After launch, the separately downloaded Ghost program reads the local configuration and necessarily uses the credential to authenticate the account with Discord over the network. Ghost can also be configured with webhook URLs, and its executable or source code is obtained from the independent [`ghostselfbot/ghost` GitHub project](https://github.com/ghostselfbot/ghost). Those network operations and the behavior of the downloaded Ghost version are outside the Illegalcord integration's local file-writing step and must be reviewed separately. Illegalcord does not warrant that current or future third-party Ghost releases never transmit information beyond what is necessary for Discord authentication. Users who do not accept that risk must leave token auto-fill disabled and must not launch Ghost.
+The token cannot accurately be described as never leaving the computer under all circumstances. After launch, the separately downloaded Ghost program reads the local configuration and necessarily uses the credential to authenticate the account with Discord over the network. Ghost can also be configured with webhook URLs, and its executable or source code is obtained from the independent [`ghostselfbot/ghost` GitHub project](https://github.com/ghostselfbot/ghost). Those network operations and the behavior of the downloaded Ghost version are outside the Aricord integration's local file-writing step and must be reviewed separately. Aricord does not warrant that current or future third-party Ghost releases never transmit information beyond what is necessary for Discord authentication. Users who do not accept that risk must leave token auto-fill disabled and must not launch Ghost.
 
 Other plugins use credentials belonging to independent services rather than the Discord account token. Examples include upload-provider tokens used by FileUpload, an Anon.li API key used by Anon.li Drop, a Yandex Music OAuth token used by YMusicSync, and service-specific credentials used by integrations such as NitroSniper, ReviewDB, Decor, SongSpotlight, Streaks, ThemeLibrary, and TriviaAI. These values may be stored locally and transmitted to their respective providers for authentication. The distinction does not make them harmless: compromise can expose the associated service account, data, quota, or paid resources. This list reflects the code at the time of writing and should be reviewed whenever integrations change.
 
@@ -62,6 +62,6 @@ No software or transmission method can guarantee absolute security. Users should
 
 ## Accuracy and changes
 
-Third-party OSINT, breach, reputation, and profile data may be incomplete, outdated, incorrectly attributed, or unlawfully sourced. Illegalcord makes no representation that such data or a provider's processing complies with the GDPR or any other law.
+Third-party OSINT, breach, reputation, and profile data may be incomplete, outdated, incorrectly attributed, or unlawfully sourced. Aricord makes no representation that such data or a provider's processing complies with the GDPR or any other law.
 
 This notice may be updated as plugins and external integrations change. Legal or privacy questions about a third-party service should be addressed directly to that service. Do not post personal data, credentials, or private communications in a public issue or support channel.

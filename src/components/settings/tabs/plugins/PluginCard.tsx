@@ -32,7 +32,7 @@ interface PluginCardProps extends React.HTMLProps<HTMLDivElement> {
 export function PluginCard({ plugin, disabled, onRestartNeeded, onMouseEnter, onMouseLeave, isNew }: PluginCardProps) {
     const settings = Settings.plugins[plugin.name];
     const pluginMeta = PluginMeta[plugin.name];
-    const isIllegalcordPlugin = pluginMeta.folderName.startsWith("src/illegalcordplugins/");
+    const isAricordPlugin = pluginMeta.folderName.startsWith("src/aricordplugins/");
     const isEquicordPlugin = pluginMeta.folderName.startsWith("src/equicordplugins/") ?? false;
     const isVencordPlugin = pluginMeta.folderName.startsWith("src/plugins/") ?? false;
     const isUserPlugin = pluginMeta?.userPlugin ?? false;
@@ -98,10 +98,10 @@ export function PluginCard({ plugin, disabled, onRestartNeeded, onMouseEnter, on
             title: "Modified Vencord Plugin"
         },
         {
-            condition: isIllegalcordPlugin,
-            src: "https://github.com/ImHisako/ImHisako/blob/main/Images/Illegalcord.png?raw=true",
-            alt: "Illegalcord",
-            title: "Illegalcord Plugin"
+            condition: isAricordPlugin,
+            src: "https://raw.githubusercontent.com/AriOfTabor/Aricord/main/browser/icon.png",
+            alt: "Aricord",
+            title: "Aricord Plugin"
         },
         {
             condition: isEquicordPlugin,
@@ -117,7 +117,7 @@ export function PluginCard({ plugin, disabled, onRestartNeeded, onMouseEnter, on
         },
         {
             condition: isUserPlugin,
-            src: "https://github.com/ImHisako/ImHisako/blob/main/Images/Illegalcord.png?raw=true",
+            src: "https://raw.githubusercontent.com/AriOfTabor/Aricord/main/browser/icon.png",
             alt: "User",
             title: "User Plugin"
         }

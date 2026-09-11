@@ -103,7 +103,7 @@ const enum SearchStatus {
     FAVORITES,
     ENABLED,
     DISABLED,
-    ILLEGALCORD,
+    ARICORD,
     EQUICORD,
     VENCORD,
     NEW,
@@ -227,8 +227,8 @@ export default function PluginSettings() {
             case SearchStatus.ENABLED:
                 if (!isPluginEnabled(plugin.name)) return false;
                 break;
-            case SearchStatus.ILLEGALCORD:
-                if (!PluginMeta[plugin.name].folderName.startsWith("src/illegalcordplugins/")) return false;
+            case SearchStatus.ARICORD:
+                if (!PluginMeta[plugin.name].folderName.startsWith("src/aricordplugins/")) return false;
                 break;
             case SearchStatus.EQUICORD:
                 if (!PluginMeta[plugin.name].folderName.startsWith("src/equicordplugins/")) return false;
@@ -435,7 +435,7 @@ export default function PluginSettings() {
                             { label: "Show Favorites", value: SearchStatus.FAVORITES },
                             { label: "Show Enabled", value: SearchStatus.ENABLED },
                             { label: "Show Disabled", value: SearchStatus.DISABLED },
-                            { label: "Show Illegalcord", value: SearchStatus.ILLEGALCORD },
+                            { label: "Show Aricord", value: SearchStatus.ARICORD },
                             { label: "Show Equicord", value: SearchStatus.EQUICORD },
                             { label: "Show Vencord", value: SearchStatus.VENCORD },
                             { label: "Show New", value: SearchStatus.NEW },

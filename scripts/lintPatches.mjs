@@ -9,7 +9,7 @@ const VERBOSE = process.env.LINT_PATCHES_VERBOSE === "1" || process.argv.include
 
 const tracked = execFileSync("git", ["ls-files", "--cached", "--others", "--exclude-standard", "src"], { cwd: ROOT, encoding: "utf8" })
     .split("\n")
-    .filter(p => /^src\/(plugins|equicordplugins|illegalcordplugins)\/.*\.(ts|tsx)$/.test(p))
+    .filter(p => /^src\/(plugins|equicordplugins|aricordplugins)\/.*\.(ts|tsx)$/.test(p))
     .filter(p => existsSync(join(ROOT, p)))
     .map(p => p.replace(/\//g, sep));
 
