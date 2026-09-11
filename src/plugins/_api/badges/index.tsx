@@ -31,7 +31,7 @@ import { ContextMenuApi, Menu, Toasts, UserStore } from "@webpack/common";
 
 import Plugins, { PluginMeta } from "~plugins";
 
-import { EquicordDonorModal, EquicordTranslatorModal, AricordDonorModal, NightcordBadgeModal, TrashCordDonorModal, VencordDonorModal } from "./modals";
+import { AricordDonorModal, EquicordDonorModal, EquicordTranslatorModal, NightcordBadgeModal, TrashCordDonorModal, VencordDonorModal } from "./modals";
 
 const CONTRIBUTOR_BADGE = "https://cdn.discordapp.com/emojis/1092089799109775453.png?size=64";
 const EQUICORD_CONTRIBUTOR_BADGE = "https://equicord.org/assets/favicon.png";
